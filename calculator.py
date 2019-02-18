@@ -65,7 +65,7 @@ subraction.grid(row=3,column=3)
 btn0=Button(cal,padx=16,bd=8,fg='black',font=('',20,'bold'),text="0",command=lambda:Click(0),bg="white")
 btn0.grid(row=4,column=0)
 
-multiply=Button(cal,padx=16,bd=8,fg='black',font=('',20,'bold'),text="",command=lambda:Click(''),bg="white")
+multiply=Button(cal,padx=16,bd=8,fg='black',font=('',20,'bold'),text="*",command=lambda:Click('*'),bg="white")
 multiply.grid(row=4,column=1)
 
 division=Button(cal,padx=16,bd=8,fg='black',font=('',20,'bold'),text="/",command=lambda:Click('/'),bg="white")
